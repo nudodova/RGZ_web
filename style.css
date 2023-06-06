@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    text-align: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    position: relative;
+    cursor: pointer;
+    font-family: "PF DinText Pro";
+  }
+  
+  li a:hover:not(.active) {
+    background-color: white;
+  }
+  
+  .active {
+    background-color: white;
+    color:blue
+  }
+  
